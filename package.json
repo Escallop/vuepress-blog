@@ -1,16 +1,23 @@
 {
-  "name": "blog",
+  "name": "vuepress-blog",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Escallop/vuepress-blog.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Escallop/vuepress-blog/issues"
+  },
+  "homepage": "https://github.com/Escallop/vuepress-blog#readme",
   "devDependencies": {
-    "vuepress": "^1.0.0-rc.1"
+    "vuepress": "^1.5.4"
   }
 }
